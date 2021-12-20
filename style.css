@@ -1,0 +1,34 @@
+/*WILDCARD*/
+*{
+    box-sizing: border-box;
+    font-family: "raleway","sans-serif";
+
+}
+a{
+    color: inherit;
+    text-decoration: none;
+}
+nav{
+    border: 1px solid red;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    flex-wrap: wrap;
+}
+nav a{
+    padding: 32px;
+}
+nav a:hover{
+    border-top: 3px solid #0065FC;
+}
+.subnav{
+    border: 1px blueviolet;
+    display: inline;
+
+}
+#logo{
+    border:3px solid blue;
+    margin-right: auto;
+    max-width: 97px; 
+}
+@media (max-width:902px)
